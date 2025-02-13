@@ -14,3 +14,5 @@ There are also a few commands that you can quickly access and run from the menu 
 -SFC /scannow
 -DISM /online /cleanup-image /restorehealth
 -A connectivity consistency checker! (ping test)
+
+Latest [Release](https://github.com/salochin7/Nvision/releases/tag/v1.0.1)
