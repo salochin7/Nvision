@@ -17,6 +17,7 @@ namespace Nvision
     public partial class Form1 : Form
     {
         private Timer timer;
+        //This is a note for a timer to update the temperatures every 2 seconds.
 
         public Form1()
         {
