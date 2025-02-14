@@ -9,6 +9,8 @@ using System.Management;
 using System.Drawing;
 using System.IO;
 using System.Drawing.Imaging;
+using Microsoft.Diagnostics.Runtime;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Nvision
 {
@@ -305,8 +307,10 @@ namespace Nvision
 
             //This is run to get battery health
             GetBatteryHealth();
-
         }
+
+
+
         private void GetBatteryHealth()
         {
             var computer = new Computer();
@@ -553,8 +557,13 @@ namespace Nvision
             Process.Start(info);
         }
 
-        
-
-        
+        private void sourceCODE_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/salochin7/Nvision/tree/master",
+                UseShellExecute = true
+            });
+        }
     }
 }
