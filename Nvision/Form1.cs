@@ -18,7 +18,6 @@ namespace Nvision
     {
         private Timer timer;
 
-        private bool isRunning = false;
         public Form1()
         {
             InitializeComponent();
