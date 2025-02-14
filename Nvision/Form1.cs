@@ -503,6 +503,15 @@ namespace Nvision
             cmdMEM.Left = (this.ClientSize.Width - cmdMEM.Width) / 2;
             cmdMEMslots.Left = (this.ClientSize.Width - cmdMEMslots.Width) / 2;
             cmdMEMavailable.Left = (this.ClientSize.Width - cmdMEMavailable.Width) / 2;
+            cmdBATTERY.Left = (this.ClientSize.Width - cmdBATTERY.Width) / 2;
+            cmdBIOSVER.Left = (this.ClientSize.Width - cmdBIOSVER.Width) / 2;
+            cmdMOBO.Left = (this.ClientSize.Width - cmdMOBO.Width) / 2;
+            cmdSMART.Left = (this.ClientSize.Width - cmdSMART.Width) / 2;
+            cmdMEMCAPACITY.Left = (this.ClientSize.Width - cmdMEMCAPACITY.Width) / 2;
+            cmdMEMSPEED.Left = (this.ClientSize.Width - cmdMEMSPEED.Width) / 2;
+            cpuTEMP.Left = (this.ClientSize.Width - cpuTEMP.Width) / 2;
+            gpuTEMP.Left = (this.ClientSize.Width - gpuTEMP.Width) / 2;
+
         }
         private void runSFC_Click(object sender, EventArgs e)
         {

@@ -261,7 +261,7 @@
             this.sourceCODE.BackColor = System.Drawing.Color.Black;
             this.sourceCODE.Font = new System.Drawing.Font("Lucida Console", 14F, System.Drawing.FontStyle.Bold);
             this.sourceCODE.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(170)))), ((int)(((byte)(28)))));
-            this.sourceCODE.Location = new System.Drawing.Point(499, 783);
+            this.sourceCODE.Location = new System.Drawing.Point(943, 12);
             this.sourceCODE.Name = "sourceCODE";
             this.sourceCODE.Size = new System.Drawing.Size(92, 39);
             this.sourceCODE.TabIndex = 14;
@@ -272,7 +272,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Nvision.Properties.Resources.Nvision;
-            this.pictureBox1.Location = new System.Drawing.Point(313, 703);
+            this.pictureBox1.Location = new System.Drawing.Point(907, 694);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 128);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -284,7 +284,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(51)))), ((int)(((byte)(53)))));
-            this.ClientSize = new System.Drawing.Size(611, 843);
+            this.ClientSize = new System.Drawing.Size(1047, 843);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.sourceCODE);
             this.Controls.Add(this.cmdBIOSVER);
