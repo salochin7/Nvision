@@ -23,6 +23,7 @@ namespace Nvision
         {
             InitializeComponent();
             this.Shown += new EventHandler(Form1_Shown);
+            this.MinimumSize = new Size(1148, 882);
             SetupTimer();
         }
 
@@ -390,21 +391,42 @@ namespace Nvision
 
             if (cpuTemps.Count > 0)
             {
-                cpuTEMP.Text = "CPU Temperature: " + Math.Round(cpuTemps[0]) + "C";
+                int cpuTemp = (int)Math.Round(cpuTemps[0]); // Convert float to int
+                cpuTEMP.Text = "CPU Temperature: " + cpuTemp + "°C";
+
+                // Change color based on temperature range
+                if (cpuTemp < 60)
+                    cpuTEMP.ForeColor = Color.Green;
+                else if (cpuTemp >= 60 && cpuTemp < 80)
+                    cpuTEMP.ForeColor = Color.Orange;
+                else
+                    cpuTEMP.ForeColor = Color.Red;
             }
             else
             {
                 cpuTEMP.Text = "CPU Temperature: Data Unavailable";
+                cpuTEMP.ForeColor = Color.Gray;
             }
 
             if (gpuTemps.Count > 0)
             {
-                gpuTEMP.Text = "GPU Temperature: " + Math.Round(gpuTemps[0]) + "C";
+                int gpuTemp = (int)Math.Round(gpuTemps[0]); // Convert float to int
+                gpuTEMP.Text = "GPU Temperature: " + gpuTemp + "°C";
+
+                // Change color based on temperature range
+                if (gpuTemp < 60)
+                    gpuTEMP.ForeColor = Color.Green;
+                else if (gpuTemp >= 60 && gpuTemp < 80)
+                    gpuTEMP.ForeColor = Color.Orange;
+                else
+                    gpuTEMP.ForeColor = Color.Red;
             }
             else
             {
                 gpuTEMP.Text = "GPU Temperature: Data Unavailable";
+                gpuTEMP.ForeColor = Color.Gray;
             }
+
 
         }
 
@@ -462,21 +484,42 @@ namespace Nvision
 
                 if (cpuTemps.Count > 0)
                 {
-                    cpuTEMP.Text = "CPU Temperature: " + Math.Round(cpuTemps[0]) + "C";
+                    int cpuTemp = (int)Math.Round(cpuTemps[0]); // Convert float to int
+                    cpuTEMP.Text = "CPU Temperature: " + cpuTemp + "°C";
+
+                    // Change color based on temperature range
+                    if (cpuTemp < 60)
+                        cpuTEMP.ForeColor = Color.Green;
+                    else if (cpuTemp >= 60 && cpuTemp < 80)
+                        cpuTEMP.ForeColor = Color.Orange;
+                    else
+                        cpuTEMP.ForeColor = Color.Red;
                 }
                 else
                 {
                     cpuTEMP.Text = "CPU Temperature: Data Unavailable";
+                    cpuTEMP.ForeColor = Color.Gray;
                 }
 
                 if (gpuTemps.Count > 0)
                 {
-                    gpuTEMP.Text = "GPU Temperature: " + Math.Round(gpuTemps[0]) + "C";
+                    int gpuTemp = (int)Math.Round(gpuTemps[0]); // Convert float to int
+                    gpuTEMP.Text = "GPU Temperature: " + gpuTemp + "°C";
+
+                    // Change color based on temperature range
+                    if (gpuTemp < 60)
+                        gpuTEMP.ForeColor = Color.Green;
+                    else if (gpuTemp >= 60 && gpuTemp < 80)
+                        gpuTEMP.ForeColor = Color.Orange;
+                    else
+                        gpuTEMP.ForeColor = Color.Red;
                 }
                 else
                 {
                     gpuTEMP.Text = "GPU Temperature: Data Unavailable";
+                    gpuTEMP.ForeColor = Color.Gray;
                 }
+
 
             }
             catch (Exception ex)
@@ -499,18 +542,18 @@ namespace Nvision
         private void Form1_Resize(object sender, EventArgs e)
         {
             //This script makes sure all labels are centered
-            cmdSERIAL.Left = (this.ClientSize.Width - cmdSERIAL.Width) / 2;
-            cmdMEM.Left = (this.ClientSize.Width - cmdMEM.Width) / 2;
-            cmdMEMslots.Left = (this.ClientSize.Width - cmdMEMslots.Width) / 2;
-            cmdMEMavailable.Left = (this.ClientSize.Width - cmdMEMavailable.Width) / 2;
-            cmdBATTERY.Left = (this.ClientSize.Width - cmdBATTERY.Width) / 2;
-            cmdBIOSVER.Left = (this.ClientSize.Width - cmdBIOSVER.Width) / 2;
-            cmdMOBO.Left = (this.ClientSize.Width - cmdMOBO.Width) / 2;
-            cmdSMART.Left = (this.ClientSize.Width - cmdSMART.Width) / 2;
-            cmdMEMCAPACITY.Left = (this.ClientSize.Width - cmdMEMCAPACITY.Width) / 2;
-            cmdMEMSPEED.Left = (this.ClientSize.Width - cmdMEMSPEED.Width) / 2;
-            cpuTEMP.Left = (this.ClientSize.Width - cpuTEMP.Width) / 2;
-            gpuTEMP.Left = (this.ClientSize.Width - gpuTEMP.Width) / 2;
+            //cmdSERIAL.Left = (this.ClientSize.Width - cmdSERIAL.Width) / 2;
+            //cmdMEM.Left = (this.ClientSize.Width - cmdMEM.Width) / 2;
+            //cmdMEMslots.Left = (this.ClientSize.Width - cmdMEMslots.Width) / 2;
+            //cmdMEMavailable.Left = (this.ClientSize.Width - cmdMEMavailable.Width) / 2;
+            //cmdBATTERY.Left = (this.ClientSize.Width - cmdBATTERY.Width) / 2;
+            //cmdBIOSVER.Left = (this.ClientSize.Width - cmdBIOSVER.Width) / 2;
+            //cmdMOBO.Left = (this.ClientSize.Width - cmdMOBO.Width) / 2;
+            //cmdSMART.Left = (this.ClientSize.Width - cmdSMART.Width) / 2;
+            //cmdMEMCAPACITY.Left = (this.ClientSize.Width - cmdMEMCAPACITY.Width) / 2;
+            //cmdMEMSPEED.Left = (this.ClientSize.Width - cmdMEMSPEED.Width) / 2;
+            //cpuTEMP.Left = (this.ClientSize.Width - cpuTEMP.Width) / 2;
+            //gpuTEMP.Left = (this.ClientSize.Width - gpuTEMP.Width) / 2;
 
         }
         private void runSFC_Click(object sender, EventArgs e)
@@ -574,5 +617,7 @@ namespace Nvision
                 UseShellExecute = true
             });
         }
+
+        
     }
 }
