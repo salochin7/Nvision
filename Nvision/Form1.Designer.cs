@@ -102,7 +102,7 @@
             this.cmdMEM.BackColor = System.Drawing.Color.Transparent;
             this.cmdMEM.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMEM.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdMEM.Location = new System.Drawing.Point(550, 222);
+            this.cmdMEM.Location = new System.Drawing.Point(1147, 116);
             this.cmdMEM.Name = "cmdMEM";
             this.cmdMEM.Size = new System.Drawing.Size(407, 35);
             this.cmdMEM.TabIndex = 3;
@@ -115,7 +115,7 @@
             this.cmdMEMslots.BackColor = System.Drawing.Color.Transparent;
             this.cmdMEMslots.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMEMslots.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdMEMslots.Location = new System.Drawing.Point(550, 328);
+            this.cmdMEMslots.Location = new System.Drawing.Point(1147, 222);
             this.cmdMEMslots.Name = "cmdMEMslots";
             this.cmdMEMslots.Size = new System.Drawing.Size(424, 35);
             this.cmdMEMslots.TabIndex = 4;
@@ -128,7 +128,7 @@
             this.cmdMEMavailable.BackColor = System.Drawing.Color.Transparent;
             this.cmdMEMavailable.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMEMavailable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdMEMavailable.Location = new System.Drawing.Point(550, 363);
+            this.cmdMEMavailable.Location = new System.Drawing.Point(1147, 257);
             this.cmdMEMavailable.Name = "cmdMEMavailable";
             this.cmdMEMavailable.Size = new System.Drawing.Size(574, 35);
             this.cmdMEMavailable.TabIndex = 5;
@@ -153,7 +153,7 @@
             this.cpuTEMP.BackColor = System.Drawing.Color.Transparent;
             this.cpuTEMP.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.cpuTEMP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cpuTEMP.Location = new System.Drawing.Point(552, 580);
+            this.cpuTEMP.Location = new System.Drawing.Point(1147, 376);
             this.cpuTEMP.Name = "cpuTEMP";
             this.cpuTEMP.Size = new System.Drawing.Size(378, 35);
             this.cpuTEMP.TabIndex = 8;
@@ -169,7 +169,7 @@
             this.gpuTEMP.BackColor = System.Drawing.Color.Transparent;
             this.gpuTEMP.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.gpuTEMP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.gpuTEMP.Location = new System.Drawing.Point(552, 615);
+            this.gpuTEMP.Location = new System.Drawing.Point(1147, 411);
             this.gpuTEMP.Name = "gpuTEMP";
             this.gpuTEMP.Size = new System.Drawing.Size(379, 35);
             this.gpuTEMP.TabIndex = 9;
@@ -205,7 +205,7 @@
             this.cmdBATTERY.BackColor = System.Drawing.Color.Transparent;
             this.cmdBATTERY.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.cmdBATTERY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdBATTERY.Location = new System.Drawing.Point(14, 474);
+            this.cmdBATTERY.Location = new System.Drawing.Point(1149, 569);
             this.cmdBATTERY.Name = "cmdBATTERY";
             this.cmdBATTERY.Size = new System.Drawing.Size(439, 35);
             this.cmdBATTERY.TabIndex = 12;
@@ -217,7 +217,7 @@
             this.cmdSMART.BackColor = System.Drawing.Color.Transparent;
             this.cmdSMART.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.cmdSMART.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdSMART.Location = new System.Drawing.Point(15, 569);
+            this.cmdSMART.Location = new System.Drawing.Point(22, 465);
             this.cmdSMART.Name = "cmdSMART";
             this.cmdSMART.Size = new System.Drawing.Size(404, 35);
             this.cmdSMART.TabIndex = 13;
@@ -241,7 +241,7 @@
             this.cmdMEMSPEED.BackColor = System.Drawing.Color.Transparent;
             this.cmdMEMSPEED.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMEMSPEED.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdMEMSPEED.Location = new System.Drawing.Point(550, 293);
+            this.cmdMEMSPEED.Location = new System.Drawing.Point(1147, 187);
             this.cmdMEMSPEED.Name = "cmdMEMSPEED";
             this.cmdMEMSPEED.Size = new System.Drawing.Size(441, 35);
             this.cmdMEMSPEED.TabIndex = 4;
@@ -254,7 +254,7 @@
             this.cmdMEMCAPACITY.BackColor = System.Drawing.Color.Transparent;
             this.cmdMEMCAPACITY.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMEMCAPACITY.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.cmdMEMCAPACITY.Location = new System.Drawing.Point(550, 258);
+            this.cmdMEMCAPACITY.Location = new System.Drawing.Point(1147, 152);
             this.cmdMEMCAPACITY.Name = "cmdMEMCAPACITY";
             this.cmdMEMCAPACITY.Size = new System.Drawing.Size(481, 35);
             this.cmdMEMCAPACITY.TabIndex = 4;
@@ -280,7 +280,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label2.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(552, 187);
+            this.label2.Location = new System.Drawing.Point(1149, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(138, 35);
             this.label2.TabIndex = 16;
@@ -292,7 +292,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label3.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(14, 439);
+            this.label3.Location = new System.Drawing.Point(1149, 534);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(132, 35);
             this.label3.TabIndex = 16;
@@ -304,7 +304,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label4.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(15, 534);
+            this.label4.Location = new System.Drawing.Point(22, 430);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 35);
             this.label4.TabIndex = 16;
@@ -340,7 +340,7 @@
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label7.Font = new System.Drawing.Font("MS PGothic", 26.25F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(552, 545);
+            this.label7.Location = new System.Drawing.Point(1147, 341);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(215, 35);
             this.label7.TabIndex = 16;
@@ -363,7 +363,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1132, 843);
+            this.ClientSize = new System.Drawing.Size(1770, 861);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label6);
